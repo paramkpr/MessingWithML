@@ -1,12 +1,12 @@
-import pandas as pd
-import numpy as np
-from sklearn import preprocessing, model_selection, svm
-from sklearn.linear_model import LinearRegression
-import math
-import quandl
 import datetime
+import math
+
 import matplotlib.pyplot as plt
+import numpy as np
+import quandl
 from matplotlib import style
+from sklearn import preprocessing, model_selection
+from sklearn.linear_model import LinearRegression
 
 # noinspection SpellCheckingInspection
 quandl.ApiConfig.api_key = 'mkSJc3cDJbVVxKD9vbei'
@@ -43,9 +43,11 @@ clf = LinearRegression(n_jobs=-1)
 clf.fit(X_train, y_train)
 confidence = clf.score(X_test, y_test)
 
+# noinspection PyArgumentList
 forecast_set = clf.predict(X_recent)
 # print(forecast_set, confidence, forecast_out)
 
+# noinspection SpellCheckingInspection
 style.use('ggplot')
 
 df['Forecast'] = np.nan
@@ -57,7 +59,7 @@ next_unix = last_unix + 86400
 for i in forecast_set:
     next_date = datetime.datetime.fromtimestamp(next_unix)
     next_unix += 86400
-    df.loc[next_date] = [np.nan for _ in range(len(df.columns)-1)] + [i]
+    df.loc[next_date] = [np.nan for _ in range(len(df.columns) - 1)] + [i]
 
 df['Adj. Close'].plot()
 df['Forecast'].plot()
