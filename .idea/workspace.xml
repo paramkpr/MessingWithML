@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d669d61-7db9-4d28-a9fe-ae694957021e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RegressionTheory/BestFitSlope.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.data.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.names.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast_cancer.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/RegressionTheory/BestFitSlope.py" afterPath="$PROJECT_DIR$/LinearRegression/RegressionTheory/BestFitSlope.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,32 +20,90 @@
     <favorites_list name="MessingWithML" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="regression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/googlStock/regression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BestFitSlope.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RegressionTheory/BestFitSlope.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6621059">
+      <split-first>
+        <splitter split-orientation="horizontal" split-proportion="0.698741">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="regression.py" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/googlStock/regression.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="754">
+                      <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+                      <folding>
+                        <element signature="e#0#15#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="BestFitSlope.py" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/LinearRegression/RegressionTheory/BestFitSlope.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="754">
+                      <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+                      <folding>
+                        <element signature="e#0#27#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="breast-cancer-wisconsin.data.txt" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.data.txt">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1562">
+                      <caret line="159" column="18" lean-forward="false" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="breast_cancer.py" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast_cancer.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="459">
+                      <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                      <folding>
+                        <element signature="e#0#18#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="breast-cancer-wisconsin.data.txt" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.data.txt">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="731">
+                      <caret line="134" column="27" lean-forward="false" selection-start-line="119" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="breast-cancer-wisconsin.names.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.names.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="674">
+                  <caret line="119" column="25" lean-forward="true" selection-start-line="119" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,12 +122,14 @@
         <option value="$PROJECT_DIR$/googlStock/regression.py" />
         <option value="$PROJECT_DIR$/googlStock/BestFitSlope.py" />
         <option value="$PROJECT_DIR$/RegressionTheory/BestFitSlope.py" />
+        <option value="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.data.txt" />
+        <option value="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast_cancer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="width" value="1280" />
+    <option name="x" value="381" />
+    <option name="width" value="2179" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -94,12 +157,18 @@
             <path>
               <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
               <item name="MessingWithML" type="462c0819:PsiDirectoryNode" />
-              <item name="googlStock" type="462c0819:PsiDirectoryNode" />
+              <item name="K-Nearest Neighbor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
               <item name="MessingWithML" type="462c0819:PsiDirectoryNode" />
-              <item name="RegressionTheory" type="462c0819:PsiDirectoryNode" />
+              <item name="K-Nearest Neighbor" type="462c0819:PsiDirectoryNode" />
+              <item name="BreastCancer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MessingWithML" type="462c0819:PsiDirectoryNode" />
+              <item name="LinearRegression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -110,7 +179,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/RegressionTheory/BestFitSlope.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast_cancer.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -125,6 +194,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Param\Desktop\Machine_Learning\MessingWithML\LinearRegression" />
       <recent name="C:\Users\Param\Desktop\Machine_Learning\MessingWithML\RegressionTheory" />
       <recent name="C:\Users\Param\Desktop\Machine_Learning\MessingWithML\googlStock" />
     </key>
@@ -141,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BestFitSlope.py">
+  <component name="RunManager" selected="Python.breast_cancer.py">
     <configuration name="BestFitSlope.py" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,6 +225,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MessingWithML" />
       <option name="SCRIPT_NAME" value="C:\Users\Param\Desktop\Machine_Learning\MessingWithML\RegressionTheory\BestFitSlope.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="breast_cancer.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Param\Desktop\Machine_Learning\MessingWithML\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MessingWithML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast_cancer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,9 +266,10 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.BestFitSlope.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.regression" />
+      <item index="1" class="java.lang.String" itemvalue="Python.breast_cancer.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.regression" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -243,17 +332,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1280" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="381" y="0" width="2179" height="1040" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17552336" sideWeight="0.49557522" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07753386" sideWeight="0.49557522" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.50276244" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2907" y="410" width="846" height="531" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32901832" sideWeight="0.49723756" order="7" side_tool="false" content_ui="tabs" x="3087" y="571" width="568" height="420" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32901832" sideWeight="0.49723756" order="7" side_tool="false" content_ui="tabs" x="2714" y="487" width="1169" height="420" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979919" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.289823" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17552336" sideWeight="0.50442475" order="0" side_tool="true" content_ui="tabs" />
@@ -369,10 +457,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RegressionTheory/BestFitSlope.py">
+    <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.data.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        <state relative-caret-position="1562">
+          <caret line="159" column="18" lean-forward="false" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="119" column="25" lean-forward="true" selection-start-line="119" selection-start-column="25" selection-end-line="120" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinearRegression/RegressionTheory/BestFitSlope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -381,10 +485,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/googlStock/regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="754">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast_cancer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

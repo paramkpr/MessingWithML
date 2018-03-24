@@ -34,8 +34,10 @@ def coefficient_of_determination(point, line):
     return 1 - (squared_error_regression / squared_error_y_mean)
 
 
+# noinspection PyPep8Naming,PyPep8Naming
 def create_dataSet(hm, variance, step=2, correlation=False):
     val = 1
+    # noinspection PyPep8Naming
     YS = []
     for i in range(hm):
         data = val + random.randrange(-variance, variance)
