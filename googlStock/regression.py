@@ -32,12 +32,12 @@ df['label'] = df[forecast_col].shift(-forecast_out)  # Creates new col for label
 
 X = preprocessing.scale(np.array(df.drop(['label'], 1)))  # Features get converted to numpy array
 X_recent = X[-forecast_out:]
-X = X[:-forecast_out]
+X_past = X[:-forecast_out]
 df.dropna(inplace=True)  # Removes nan(s) created due to 35 extra row positions
 
 y = np.array(df['label'])  # Label gets converted to numpy array
 
-X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.2)
+X_train, X_test, y_train, y_test = model_selection.train_test_split(X_past, y, test_size=0.2)
 
 clf = LinearRegression(n_jobs=-1)
 clf.fit(X_train, y_train)
