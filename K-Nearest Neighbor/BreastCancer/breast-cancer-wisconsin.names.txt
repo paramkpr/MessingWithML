@@ -84,7 +84,7 @@ Citation Request:
 
    Note that the results summarized above in Past Usage refer to a dataset
    of size 369, while Group 1 has only 367 instances.  This is because it
-   originally contained 369 instances; 2 were removed.  The following
+   originally contained 369 instances, 2 were removed.  The following
    statements summarizes changes to the original Group 1's set of data:
 
    #####  Group 1 : 367 points: 200B 167M (January 1989)
