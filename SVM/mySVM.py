@@ -84,9 +84,8 @@ class SupportVectorMachine:
             self.b = opt_choice[1]
             latest_optimum = opt_choice[0][0] + step * 2
 
-        for i in self.data:
-            for xi in self.data[i]:
-                yi = i
+        for yi in self.data:
+            for xi in self.data[yi]:
                 print(xi, ':', yi * (np.dot(self.w, xi) + self.b))
 
     def predict(self, features):
