@@ -6,9 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d669d61-7db9-4d28-a9fe-ae694957021e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MessingWithML.iml" afterPath="$PROJECT_DIR$/.idea/MessingWithML.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SVM/mySVM.py" afterPath="$PROJECT_DIR$/SVM/mySVM.py" />
+      <change beforePath="$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py" afterPath="$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,17 +20,27 @@
     <favorites_list name="MessingWithML" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40788347">
+    <splitter split-orientation="horizontal" split-proportion="0.5985663">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="mySVM.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="mySVM.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SVM/mySVM.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
+                <state relative-caret-position="-748">
                   <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wineQuality.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -102,17 +111,17 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
         <option value="$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/winequality.names.txt" />
         <option value="$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/winequality-red.csv" />
-        <option value="$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
         <option value="$PROJECT_DIR$/SVM/mySVM.py" />
+        <option value="$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="105" />
-    <option name="y" value="-20" />
-    <option name="width" value="2018" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="755" />
+    <option name="y" value="99" />
+    <option name="width" value="1358" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -152,6 +161,17 @@
             <path>
               <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
               <item name="MessingWithML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MessingWithML" type="462c0819:PsiDirectoryNode" />
+              <item name="K-Nearest Neighbor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MessingWithML" type="462c0819:PsiDirectoryNode" />
+              <item name="K-Nearest Neighbor" type="462c0819:PsiDirectoryNode" />
+              <item name="kNeighbor_Theory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scratch_2">
+  <component name="RunManager" selected="Python.wineQuality">
     <configuration name="BestFitSlope.py" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -376,9 +396,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.scratch_2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.euclidian_distance" />
-        <item index="2" class="java.lang.String" itemvalue="Python.wineQuality" />
+        <item index="0" class="java.lang.String" itemvalue="Python.wineQuality" />
+        <item index="1" class="java.lang.String" itemvalue="Python.scratch_2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.euclidian_distance" />
         <item index="3" class="java.lang.String" itemvalue="Python.scratch_1" />
       </list>
     </recent_temporary>
@@ -446,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522048706762</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added runtime calculator.">
+      <created>1522074882783</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522074882789</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -459,9 +486,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="755" y="99" width="1358" height="728" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08037825" sideWeight="0.48672566" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15454546" sideWeight="0.48672566" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.50276244" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -864,16 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -930,11 +947,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SVM/mySVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="-748">
           <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
