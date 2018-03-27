@@ -37,10 +37,17 @@ class SupportVectorMachine:
 
         # Support vectors yi(xi.w+b) = 1
 
-        step_sizes = [self.max_feature_value * 0.1,
-                      self.max_feature_value * 0.001,
+        step_sizes = [self.max_feature_value * 5,
+                      self.max_feature_value * 4,
+                      self.max_feature_value * 3,
+                      self.max_feature_value * 2,
+                      self.max_feature_value * 1,
+                      self.max_feature_value * 0.5,
+                      self.max_feature_value * 0.3,
+                      self.max_feature_value * 0.1,
+                      self.max_feature_value * 0.01,
                       # Point of expense
-                      self.max_feature_value * 0.0001,
+                      self.max_feature_value * 0.001,
                       ]
 
         # Point of expense
@@ -92,7 +99,7 @@ class SupportVectorMachine:
         #  sign(Xi . w + b)
         classifier_result = np.sign(np.dot(np.array(features), self.w) + self.b)
         if classifier_result != 0 and self.visualization:
-            self.ax.scatter(features[0], features[1], s=25, marker='*',
+            self.ax.scatter(features[0], features[1], s=25, marker='>',
                             c=self.colors[classifier_result])
         return classifier_result
 
