@@ -38,9 +38,9 @@ class SupportVectorMachine:
         # Support vectors yi(xi.w+b) = 1
 
         step_sizes = [self.max_feature_value * 0.1,
-                      self.max_feature_value * 0.01,
-                      # Point of expense
                       self.max_feature_value * 0.001,
+                      # Point of expense
+                      self.max_feature_value * 0.0001,
                       ]
 
         # Point of expense
