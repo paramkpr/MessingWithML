@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn import svm, preprocessing, model_selection
 
-df = pd.read_csv('/Users/param2020218/PycharmProjects/MessingWithML/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.data.txt')
+df = pd.read_csv("breast-cancer-wisconsin.data.txt")
 df.replace('?', -99999, inplace=True)
 df.drop(df['id'], 1, inplace=True)
 
