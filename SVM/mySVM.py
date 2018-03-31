@@ -25,6 +25,8 @@ class SupportVectorMachine:
                       [-1, -1],
                       [1, -1]]
 
+
+        #  Refer to move semantics in python to improve performance
         all_data = []
         for yi in self.data:
             for featureSet in self.data[yi]:

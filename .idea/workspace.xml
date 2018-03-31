@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/SVM/mySVM.py" line="50" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/SVM/mySVM.py" line="52" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/SVM/mySVM.py" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d669d61-7db9-4d28-a9fe-ae694957021e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MessingWithML.iml" afterPath="$PROJECT_DIR$/.idea/MessingWithML.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/K Means/kMeans_Titanic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SVM/mySVM.py" afterPath="$PROJECT_DIR$/SVM/mySVM.py" />
     </list>
@@ -23,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mySVM.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mySVM.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM/mySVM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+            <state relative-caret-position="577">
+              <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -69,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="breast-cancer-wisconsin.data.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast-cancer-wisconsin.data.txt">
+      <file leaf-file-name="kMeans_Titanic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/K Means/kMeans_Titanic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,7 +132,6 @@
         <option value="$PROJECT_DIR$/Misc_Snippets/euclidian_distance.py" />
         <option value="$PROJECT_DIR$/K-Nearest Neighbor/kNeighbor_Theory/kNearest_clf.py" />
         <option value="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/myClf_BreastCancer.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
         <option value="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/foo.ipynb" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
@@ -131,8 +140,11 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
         <option value="$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py" />
         <option value="$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast_cancer.py" />
-        <option value="$PROJECT_DIR$/SVM/breastCancerSVM.py" />
         <option value="$PROJECT_DIR$/SVM/mySVM.py" />
+        <option value="$PROJECT_DIR$/SVM/breastCancerSVM.py" />
+        <option value="$USER_HOME$/Desktop/main.py" />
+        <option value="$PROJECT_DIR$/K Means/kMeans_Titanic.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
       </list>
     </option>
   </component>
@@ -183,6 +195,11 @@
             <path>
               <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
               <item name="MessingWithML" type="462c0819:PsiDirectoryNode" />
+              <item name="K Means" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MessingWithML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MessingWithML" type="462c0819:PsiDirectoryNode" />
               <item name="SVM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -225,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\Param\Desktop\Machine_Learning\MessingWithML\LinearRegression" />
       <recent name="C:\Users\Param\Desktop\Machine_Learning\MessingWithML\RegressionTheory" />
       <recent name="C:\Users\Param\Desktop\Machine_Learning\MessingWithML\googlStock" />
@@ -353,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mySVM">
+  <component name="RunManager" selected="Python.scratch">
     <configuration name="BestFitSlope.py" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,20 +439,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="euclidian_distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="QT_PLUGIN_PATH" value="D:\Applicaton Files\PY\Library\plugins" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Misc_Snippets" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MessingWithML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Misc_Snippets/euclidian_distance.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -475,7 +492,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -487,7 +504,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MessingWithML" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -533,19 +550,19 @@
       <item index="2" class="java.lang.String" itemvalue="Python.breast_cancer.py" />
       <item index="3" class="java.lang.String" itemvalue="Python.regression" />
       <item index="4" class="java.lang.String" itemvalue="Python.mySVM" />
-      <item index="5" class="java.lang.String" itemvalue="Python.euclidian_distance" />
-      <item index="6" class="java.lang.String" itemvalue="Python.wineQuality" />
-      <item index="7" class="java.lang.String" itemvalue="Python.scratch_1" />
-      <item index="8" class="java.lang.String" itemvalue="Python.scratch_2" />
-      <item index="9" class="java.lang.String" itemvalue="Python.breastCancerSVM" />
+      <item index="5" class="java.lang.String" itemvalue="Python.wineQuality" />
+      <item index="6" class="java.lang.String" itemvalue="Python.scratch_2" />
+      <item index="7" class="java.lang.String" itemvalue="Python.breastCancerSVM" />
+      <item index="8" class="java.lang.String" itemvalue="Python.main" />
+      <item index="9" class="java.lang.String" itemvalue="Python.scratch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.breastCancerSVM" />
-        <item index="1" class="java.lang.String" itemvalue="Python.wineQuality" />
-        <item index="2" class="java.lang.String" itemvalue="Python.scratch_2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.euclidian_distance" />
-        <item index="4" class="java.lang.String" itemvalue="Python.scratch_1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.scratch" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.breastCancerSVM" />
+        <item index="3" class="java.lang.String" itemvalue="Python.wineQuality" />
+        <item index="4" class="java.lang.String" itemvalue="Python.scratch_2" />
       </list>
     </recent_temporary>
   </component>
@@ -619,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522074882789</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added runtime calculator.">
+      <created>1522158382205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522158382205</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -738,31 +762,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SVM/mySVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/mySVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -927,7 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
     <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/foo.ipynb" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
@@ -1006,20 +1009,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/BreastCancer/breast_cancer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="e#29#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM/mySVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1042,10 +1057,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVM/mySVM.py">
+    <entry file="file://$PROJECT_DIR$/K Means/kMeans_Titanic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Nearest Neighbor/WineQuality/wineQuality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
