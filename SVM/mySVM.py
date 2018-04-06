@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from matplotlib import style
+import pandas as pd
 import numpy as np
 import cProfile
 
@@ -151,8 +152,10 @@ data_set = {-1: np.array([[1, 7],
                          [6, -1],
                          [7, 3], ])}
 
+
 clf = SupportVectorMachine()
 cProfile.run('clf.fit(data=data_set)') #  Runs training and displays runtime
+
 
 predict_us = [[0,10],
               [1,3],

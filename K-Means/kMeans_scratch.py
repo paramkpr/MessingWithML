@@ -1,11 +1,12 @@
+import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import style
 style.use('ggplot')
-import numpy as np
+
 
 X = np.array([[1, 2],
               [1.5, 1.8],
-              [5, 8 ],
+              [5, 8],
               [8, 8],
               [1, 0.6],
               [9,11],
@@ -15,13 +16,13 @@ X = np.array([[1, 2],
               [5,4],
               [6,4],])
 
-##plt.scatter(X[:,0], X[:,1], s=150)
-##plt.show()
+# plt.scatter(X[:,0], X[:,1], s=150)
+# plt.show()
 
 colors = 10*["g","r","c","b","k"]
 
 
-class K_Means:
+class KMeans:
     def __init__(self, k=2, tol=0.001, max_iter=300):
         self.k = k
         self.tol = tol
@@ -31,14 +32,14 @@ class K_Means:
 
         self.centroids = {}
 
-        for i in range(self.k):
-            self.centroids[i] = data[i]
+        for j in range(self.k):
+            self.centroids[j] = data[j]
 
-        for i in range(self.max_iter):
+        for j in range(self.max_iter):
             self.classifications = {}
 
-            for i in range(self.k):
-                self.classifications[i] = []
+            for j in range(self.k):
+                self.classifications[j] = []
 
             for featureset in data:
                 distances = [np.linalg.norm(featureset-self.centroids[centroid]) for centroid in self.centroids]
@@ -52,9 +53,9 @@ class K_Means:
 
             optimized = True
 
-            for c in self.centroids:
-                original_centroid = prev_centroids[c]
-                current_centroid = self.centroids[c]
+            for j in self.centroids:
+                original_centroid = prev_centroids[j]
+                current_centroid = self.centroids[j]
                 if np.sum((current_centroid-original_centroid)/original_centroid*100.0) > self.tol:
                     print(np.sum((current_centroid-original_centroid)/original_centroid*100.0))
                     optimized = False
@@ -68,7 +69,7 @@ class K_Means:
         return classification
 
 
-clf = K_Means()
+clf = KMeans()
 clf.fit(X)
 
 for centroid in clf.centroids:
