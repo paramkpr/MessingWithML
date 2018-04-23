@@ -1,0 +1,6 @@
+1. Tensorflow works in chunks because of C++ code.
+2. Writing all of the coding and then
+3. Tensorflow is an array manipulation library.
+    3a. A Tensor is an array like object.
+4. More like Numpy than Sklearn.
+5. Degine model in abstract terms.
